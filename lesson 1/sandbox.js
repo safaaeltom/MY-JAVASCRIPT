@@ -27,11 +27,21 @@ console.log(fullName.length);
 
 // string methods
 console.log(fullName.toUpperCase());
-let result = fullName.toLowerCase();
-console.log(result, fullName);
+//let result = fullName.toLowerCase();
+//console.log(result, fullName);
 
-// index in strings
+// string index
 let email = 'mario@thenetninja.co.uk';
 console.log(email);
 let index = email.indexOf('@');
-console.log(index)
+console.log(index);
+
+// string slice
+let stringSlice = email.slice(1,5);
+console.log(stringSlice)
+
+// string replace
+let result = email.replace('n, w');
+console.log(result);
+
+
