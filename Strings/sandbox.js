@@ -41,7 +41,7 @@ let stringSlice = email.slice(1,5);
 console.log(stringSlice)
 
 // string replace
-let result = email.replace('n, w');
-console.log(result);
+let result = email.replace('n', 's');
+console.log(result)
 
 
