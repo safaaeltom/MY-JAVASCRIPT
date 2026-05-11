@@ -24,3 +24,17 @@ let likes = 10;
 //likes *=3;
 //likes /= 2;
 //console.log(likes);
+
+// NaN - not a number
+//console.log(5 / 'hello');
+
+// concatenation 1
+//let result = 'The result has ' + likes + ' likes';
+
+// concatenation 2
+let result = `The result has ${likes} likes`;
+console.log(result);
+
+
+
+
