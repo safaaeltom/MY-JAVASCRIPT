@@ -48,12 +48,25 @@
 
 // ELSE IF STATEMENTS
 
-const password = 'p@ss123';
+// const password = 'p@ss123';
 
-if(password.length>=12){
-    console.log('Your password is mighty strong');
-} else if(password.length>=8){
-console.log('That password is long enough!');
-} else {
-console.log('password is not long enough');
-}
+// if(password.length>=12){
+//     console.log('Your password is mighty strong');
+// } else if(password.length>=8){
+// console.log('That password is long enough!');
+// } else {
+// console.log('password is not long enough');
+// }
+
+// LOGICAL OPERATORS - OR || and AND &&
+
+// const password = 'p@ie';
+
+// if(password.length>=12 && password.includes('@')){
+//     console.log('Your password is mighty strong');
+// } else if(password.length>=8 || password.includes('@')){
+// console.log('That password is strong enough!');
+// } else {
+// console.log('password is not strong enough');
+// }
+
