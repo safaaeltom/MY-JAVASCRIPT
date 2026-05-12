@@ -1,4 +1,4 @@
-// FOR LOOPS //
+// 1. FOR LOOPS //
 
 // for(let i=0; i<5; i++){ 
 //     console.log('in loop:', i);
@@ -12,7 +12,7 @@
 // console.log(html);
 // }
 
-// WHILE LOOPS // <evaluates the condition before running the code
+// 2. WHILE LOOPS // <evaluates the condition before running the code
 
 // let i=0
 // while(i<5){ 
@@ -20,9 +20,28 @@
 //      i++;
 // }
 
-// DO WHILE LOOPS <<runs the code regardless the condition then evaluates the condition
+// 3. DO WHILE LOOPS <<runs the code regardless the condition then evaluates the condition
+
 // let i=5
 //   do{ 
 //     console.log('value of i is:', i);
 //     i++;
 //   } while(i<5);
+
+// 4. IF STATEMENTS
+
+// const age = 15;
+
+// if (age <= 18){
+//     console.log('You are a minor');
+// }
+
+// const ninjas = ['shaun', 'ryu', 'shaun-li', 'yoshi'];
+// if (ninjas.length >4){
+//     console.log("That's a lot of ninjas")
+// }
+
+const password = 'p@ssword';
+if(password.length>=8){
+    console.log('That password is long enough!');
+}
