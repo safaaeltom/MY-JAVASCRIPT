@@ -56,3 +56,11 @@
 // speak();
 // speak('shaun');
 // speak('shaun', 'morning');
+
+// RETURNING VALUES
+// const calcArea = function(radius){
+//     return 3.14*radius**2;
+// };
+// const area = calcArea(10);
+// console.log('Answer is: ', area);
+
