@@ -24,8 +24,8 @@ const people = ['mario', 'luigi', 'ryu', 'shaun'];
 
 let html = ``;
 
-people.forEach(function(person){
-    html += `<li style="color: purple">${person}</li>`;
+people.forEach(person => {
+    html += `<li style="color: violet">${person}</li>`;
 });
 
 console.log(html);
