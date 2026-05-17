@@ -18,4 +18,16 @@
 
 // people.forEach(logPerson);
 
+// example for the forEach method
+const ul = document.querySelector('.people');
+const people = ['mario', 'luigi', 'ryu', 'shaun'];
 
+let html = ``;
+
+people.forEach(function(person){
+    html += `<li style="color: purple">${person}</li>`;
+});
+
+console.log(html);
+
+ul.innerHTML = html;
