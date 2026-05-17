@@ -1,8 +1,9 @@
-const myFunc = (age) => {
+const myFunc = (callbackFunc) => {
     let value = 50;
-    age(value);
+    callbackFunc(value);
 };
 
 myFunc(value =>{
     console.log(value);
 });
+
