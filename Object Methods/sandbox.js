@@ -19,3 +19,19 @@
 // const name = 'mario';
 // name.toUpperCase(); // This is a method which is a function
 
+// (THIS) a method to print out all blogs in the array
+let user = {  // This ia an object
+    name: 'crystal', // This is a property (a key value pair)
+    email: 'crystal@thenetninja.co.uk',
+    blogs: ['why mac & cheese rules', '10 things to make with marmite'],
+    logBlogs: function(){
+        //console.log(this.blogs);
+        console.log('This user has written the following blogs:');
+        this.blogs.forEach(blog =>{
+            console.log(blog);
+        })
+    }
+};
+
+user.logBlogs();
+console.log(this);
