@@ -24,8 +24,10 @@ let user = {  // This ia an object
     name: 'crystal', // This is a property (a key value pair)
     email: 'crystal@thenetninja.co.uk',
     blogs: ['why mac & cheese rules', '10 things to make with marmite'],
+    
+    // replace regular code with shorthand syntax for methods
+    // logBlogs: function(){
     logBlogs(){
-        //console.log(this.blogs);
         console.log('This user has written the following blogs:');
         this.blogs.forEach(blog =>{
             console.log(blog);
