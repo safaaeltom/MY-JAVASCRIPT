@@ -38,14 +38,39 @@
 // user.logBlogs();
 // console.log(this);
 
+// const ul = document.querySelector('.blogs');
+
+// let user = {
+//     name: 'crystal',
+//     email: 'crystal@thenetninja.co.uk',
+//     blogs: [
+//         'why mac & cheese rules',
+//         '10 things to make with marmite'
+//     ],
+
+//     logBlogs() {
+
+//         let html = '';
+
+//         this.blogs.forEach(blog => {
+//             html += `<li>${blog}</li>`;
+//         });
+//         ul.innerHTML = html;
+//     }
+// };
+
+// user.logBlogs();
+
+// Store objects in the array
+
 const ul = document.querySelector('.blogs');
 
 let user = {
     name: 'crystal',
     email: 'crystal@thenetninja.co.uk',
     blogs: [
-        'why mac & cheese rules',
-        '10 things to make with marmite'
+        {title:'why mac & cheese rules', likes:30},
+        {title:'10 things to make with marmite', likes:50}
     ],
 
     logBlogs() {
@@ -53,7 +78,7 @@ let user = {
         let html = '';
 
         this.blogs.forEach(blog => {
-            html += `<li>${blog}</li>`;
+            html += `<li>${blog.title} - ${blog.likes} likes</li>`;
         });
         ul.innerHTML = html;
     }
