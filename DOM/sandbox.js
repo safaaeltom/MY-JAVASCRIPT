@@ -9,7 +9,7 @@
 
 // To get the CSS selector, select the text you want in your webpage and inspect it. 
 // On the console (elements) right-click it and click copy then choose copy selector. 
-// Paste the selector in you javascript file, you will get your CSS selector.
+// Paste the selector in your javascript file, you will get your CSS selector.
 
 // const paras = document.querySelectorAll('p');
 // console.log(paras);
@@ -23,5 +23,11 @@
 // });
 
 // const errors = document.querySelectorAll('.error');
-// console.log(errors);
+//console.log(errors);
 
+// GET AN ELEMENT BY ID
+const title = document.getElementById('page-title');
+console.log(title);
+
+// GET AN ELEMENT BY CLASS NAME
+// GET AN ELEMENT BY THEIR TAG NAME
