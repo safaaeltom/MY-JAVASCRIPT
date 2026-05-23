@@ -30,4 +30,7 @@ const title = document.getElementById('page-title');
 console.log(title);
 
 // GET AN ELEMENT BY CLASS NAME
+const errors = document.getElementsByClassName('error');
+console.log(errors); // cannot loop through HTML collection using forEach
+
 // GET AN ELEMENT BY THEIR TAG NAME
