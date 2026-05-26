@@ -4,3 +4,17 @@
 // content.classList.remove('error');
 // content.classList.add('success');
 
+// const paras = document.querySelectorAll('p');
+
+// paras.forEach(p=>{ 
+//     if (p.textContent.includes('error')){ // shows everything even if displayed none
+//     p.classList.add('error');
+//     }
+//     if (p.textContent.includes('success')){ // shows everything even if displayed none
+//     p.classList.add('success');
+//     }
+// });
+
+// const title = document.querySelector('.title');
+// title.classList.toggle('test');
+// title.classList.toggle('test');
