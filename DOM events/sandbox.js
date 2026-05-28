@@ -1,9 +1,15 @@
-var btns = document.querySelectorAll('#book-list .delete');
+// var btns = document.querySelectorAll('#book-list .delete');
 
-Array.from(btns).forEach(btn=>{
-    btn.addEventListener('click',function(e){
+// Array.from(btns).forEach(btn=>{
+//     btn.addEventListener('click',function(e){
 
-        const li =e.target.parentElement;
-        li.parentNode.removeChild(li) // remove li from the parent (li parentNode)
-    });
-});
+//         const li =e.target.parentElement;
+//         li.parentNode.removeChild(li) // remove li from the parent (li parentNode)
+//     });
+// });
+
+// const link = document.querySelector('#page-banner a');
+// link.addEventListener('click',function(e){
+//     e.preventDefault();
+//     console.log('navigation to', e.target.textContent, ' was prevented'); // makes sure default reload was prevented
+// })
