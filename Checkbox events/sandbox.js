@@ -1,19 +1,50 @@
-const li =document.querySelector('#book-list ul');
+const list = document.querySelector('#book-list ul');
 
-// delete books
-// list.addEventListener('click', function(e){
+//delete books
+list.addEventListener('click',function(e){
+    const li = e.target.parentElement;
+    if(e.target.className==='delete'){
+        
+    li.parentElement.removeChild(li); 
+        // li.parentElement is list so replace with it
+        //list.removeChild(li)
+    }
+});
 
-// add books
-// const addForm = document.forms['add-book'];
-// addForm.addEventListener('submit', function(e)
+// add book-list
+const addForm = document.forms['add-book'];
+addForm.addEventListener('submit',function(e){
+    e.preventDefault();
+    const value = addForm.querySelector('input[type="text"]').value;
+    console.log(value);
 
-const hideBox = document.querySelector('#hide');
+    // create elements
+    const li = document.createElement('li');
+    const bookName = document.createElement('span');
+    const deleteBtn = document.createElement('span');
+
+    // add content
+    bookName.textContent = value;
+    deleteBtn.textContent = 'Delete';
+
+    // add classes
+    bookName.classList.add('name');
+    deleteBtn.classList.add('delete');
+
+    // append elements
+    li.appendChild(bookName);
+    li.appendChild(deleteBtn);
+    list.appendChild(li);
+});
+
+// hide books
+const hideBox = document.querySelector('#add-book #hide');
 hideBox.addEventListener('change', function(e){
     if(hideBox.checked){
-        li.style.display = "none";
+        list.style.display = "none";
     } else{
-        li.style.display = "block";
+        list.style.display = "block";
     }
-})
+});
 
 
