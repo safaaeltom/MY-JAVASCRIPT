@@ -73,10 +73,8 @@ h1, h2{
     color: white;
 }
 
-#hide{
-    background: #ddd;
-    padding: 6px;
-    border-radius: 4px;
+#hide-books{
+    padding: 15px;
     cursor: pointer;
 }
 
@@ -84,15 +82,8 @@ h1, h2{
     background: #333;
 }
 
-#add-book{
-    display: flex;
-    width: 400px;
-    margin: 0px auto;
-    
-}
-
 #add-book input{
-    padding: 8px;
+    padding: 10px;
     margin: 5px 0;
     border: 1px solid #ccc;
     font-size: 16px;
@@ -101,7 +92,7 @@ h1, h2{
 
 #add-book button{
     background: #9361bf;
-    padding: 8px 8px;
+    padding: 10px;
     font-size: 16px;
     border-radius: 6px;
     cursor: pointer;
