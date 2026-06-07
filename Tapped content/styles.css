@@ -1,0 +1,139 @@
+body{
+    font-family: Tahoma;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+h1, h2{
+    font-weight: normal;
+}
+
+#wrapper{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+}
+
+#page-banner{
+    background: #eee ;
+    padding: 10px 0;
+}
+
+#page-banner h1, #page-banner p{
+    width: 100%;
+    text-align: center;
+}
+
+#page-banner input{
+    width: 90%;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #444;
+}
+
+#book-list, #add-book{
+    margin: 20px;
+}
+
+#book-list ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#book-list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-left: 5px solid #ddd;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+#book-list li:hover{
+    border-color: #9361bf;
+}
+
+.delete{
+    float: right;
+    background: #9361bf;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+#hide-books{
+    padding: 15px;
+    cursor: pointer;
+}
+
+.delete:hover{
+    background: #333;
+}
+
+#add-book input{
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+#add-book button{
+    background: #9361bf;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+#add-book:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#add-book #hide{
+    width: 20px;
+    
+}
+
+#add-book label{
+    line-height: 50px;
+}
+
+
+/*
+#tabbed-content li{
+    display: inline-block;
+    padding: 10px 14px;
+    background: #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#tabbed-content .tab{
+    display: none;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+
+#tabbed-content .tab.active{
+    display: block;
+}
+*/
