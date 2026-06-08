@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function(){
+//document.addEventListener('DOMContentLoaded', function(){
 
 const list = document.querySelector('#book-list ul');
 
@@ -86,5 +86,4 @@ tabs.addEventListener('click', function(e){
     }
 });
 
-
-})
+//})
