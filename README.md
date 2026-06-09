@@ -23,10 +23,41 @@ Each folder in this repository focuses on a specific JavaScript topic.
 - Arrays and Array Methods
 - Booleans and Comparison Operators
 - Conditional Statements
+- Functions and Methods
+- Objects and Object Methods
+- Primitive vs Reference Values
 - Loops
+- forEach Method
+- Math Object
 - Switch Statements
 
-More topics will continue to be added as I progress.
+### DOM Manipulation
+
+- DOM Selection
+- DOM Traversal
+- DOM Attributes
+- HTML Attributes
+- Style Attributes
+- Manipulating Classes
+- DOM Text Content
+- Creating Elements
+- Nodes
+
+### DOM Events
+
+- DOM Events
+- Event Bubbling
+- Checkbox Events
+- Search Events
+- Tabbed Content
+
+### Forms
+
+- DOM Forms
+
+### Script Loading
+
+- DOMContentLoaded Event
 
 ## Purpose of This Repository
 
@@ -47,17 +78,28 @@ I believe the best way to learn programming is through:
 
 This repository reflects that process.
 
-## Future Goals
+## Future Learning Goals
 
-As I continue learning JavaScript, I plan to move into:
-- DOM manipulation
-- Events
-- Functions
-- Objects
-- APIs
-- Asynchronous JavaScript
-- ES6+
-- Real-world projects
+### JavaScript
+
+- JSON.parse() and JSON.stringify()
+- localStorage
+
+### Asynchronous JavaScript
+
+- Callbacks
+- Promises
+- Async/Await
+- Fetch API
+
+### Advanced JavaScript
+
+- Error Handling
+- ES6+ Features
+- Modules
+- Object-Oriented Programming
+
+More topics will continue to be added as I progress.
 
 Eventually, I want to confidently use JavaScript to build dynamic and interactive web applications.
 
