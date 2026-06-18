@@ -43,21 +43,27 @@ Each folder in this repository focuses on a specific JavaScript topic.
 - Creating Elements
 - Nodes
 
-### DOM Events
+### Events and Forms 
 
 - DOM Events
 - Event Bubbling
 - Checkbox Events
 - Search Events
 - Tabbed Content
-
-### Forms
-
+- Forms
 - DOM Forms
-
-### Script Loading
-
+- Script Loading
 - DOMContentLoaded Event
+
+## Asynchronous Javascript
+- XMLHttpRequest (XHR)
+- HTTP GET Requests
+- API Requests
+- Callback Functions
+- Callback Hell
+- Promises
+- Fetch API
+- Async/Await
 
 ## Purpose of This Repository
 
@@ -80,24 +86,15 @@ This repository reflects that process.
 
 ## Future Learning Goals
 
-### JavaScript
-
 - JSON.parse() and JSON.stringify()
 - localStorage
-
-### Asynchronous JavaScript
-
-- Callbacks
-- Promises
-- Async/Await
-- Fetch API
-
-### Advanced JavaScript
-
+- Advanced Asynchronous JS
 - Error Handling
 - ES6+ Features
 - Modules
 - Object-Oriented Programming
+- Advanced Browser APIs
+- Working with REST APIs in real applications
 
 More topics will continue to be added as I progress.
 
