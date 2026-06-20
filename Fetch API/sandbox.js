@@ -1,13 +1,13 @@
-// fetch API
+// // fetch API
 
-fetch('todos/luigi.json').then((response) => {
-    console.log('resolved', response);
-    return response.json();
-}).then(data => {
-    console.log(data);
-}).catch((err) => {
-    console.log('rejected', err);
-});
+// fetch('todos/luigi.json').then((response) => {
+//     console.log('resolved', response);
+//     return response.json();
+// }).then(data => {
+//     console.log(data);
+// }).catch((err) => {
+//     console.log('rejected', err);
+// });
 
 
 
@@ -38,11 +38,17 @@ const getTodos = async () => {
     return data;
 };
 
-console.log(1);
-console.log(2);
+// console.log(1);
+// console.log(2);
 
 getTodos()
-  .then(data => console.log('resolved:', data));
+  .then(data =>{
+    const ul = document.querySelector('.todos')
+    data.forEach(todo => {
+        ul.innerHTML += `<li>${todo.text}</li>` 
 
-console.log(3);
-console.log(4);
+    })
+  });
+
+// console.log(3);
+// console.log(4);
